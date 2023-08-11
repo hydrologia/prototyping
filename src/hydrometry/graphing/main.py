@@ -1,10 +1,11 @@
-import glob
-import logging
 import os
 import sys
+import logging
+import glob
 
 
 def main():
+
     logger.info('temporary')
 
     # The river in focus
@@ -32,7 +33,7 @@ def main():
     logger.info(messages)
 
     for trait in ['physical', 'physicochemical']:
-        src.hydrometry.graphing.selectors.Selectors().exc(pathstr=pathstr, trait=trait)
+        src.hydrometry.graphing.drops.Drops().exc(pathstr=pathstr, trait=trait)
 
 
 if __name__ == '__main__':
@@ -44,9 +45,6 @@ if __name__ == '__main__':
     sys.path.append(root)
     sys.path.append(os.path.join(root, 'src'))
 
-    # Threads
-    os.environ['NUMEXPR_MAX_THREADS'] = '13'
-
     # Logging
     logging.basicConfig(level=logging.INFO, format='\n\n%(message)s\n%(asctime)s.%(msecs)03d',
                         datefmt='%Y-%m-%d %H:%M:%S')
@@ -56,7 +54,7 @@ if __name__ == '__main__':
     import config
     import src.functions.directories
     import src.hydrometry.graphing.structure
-    import src.hydrometry.graphing.selectors
+    import src.hydrometry.graphing.drops
 
     # Instances
     configurations = config.Config()
