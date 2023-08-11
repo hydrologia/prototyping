@@ -3,9 +3,9 @@ import os.path
 
 import pandas as pd
 
+import src.functions.streams
 import src.functions.directories
 import src.functions.objects
-import src.functions.streams
 
 
 class Menu:
