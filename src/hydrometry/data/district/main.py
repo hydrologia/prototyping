@@ -61,8 +61,8 @@ if __name__ == '__main__':
     Definitions = src.hydrometry.data.datatype.DataType().Definitions
 
     # Arguments
-    sources = 'https://raw.githubusercontent.com/thirdreading/references/master/warehouse/hydrometry/sources.csv'
-    gazetteer = 'https://raw.githubusercontent.com/thirdreading/geocomputations/master/warehouse/hydrometry/gazetteer.csv'
+    sources = 'https://raw.githubusercontent.com/hydrologia/references/master/warehouse/hydrometry/sources.csv'
+    gazetteer = 'https://raw.githubusercontent.com/hydrologia/geocomputations/master/warehouse/hydrometry/gazetteer.csv'
     storage = os.path.join(os.getcwd(), 'warehouse', 'hydrometry', 'measures', 'district')
 
     restart = True
