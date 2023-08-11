@@ -100,11 +100,9 @@ class Interface:
         # The stations & measures in focus.
         data = self.__stations_in_focus(river=river)
         data = self.__measures_in_focus(data=data)
-        self.__logger.info(data)
 
         # Attributes
         attributes = self.__attributes(data=data)
-        self.__logger.info(attributes)
         self.__logger.info(f'N: {len(attributes)}')
 
         # Hence
