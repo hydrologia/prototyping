@@ -33,7 +33,7 @@ def main():
     logger.info(messages)
 
     for trait in ['physical', 'physicochemical']:
-        src.hydrometry.graphing.drops.Drops().exc(pathstr=pathstr, trait=trait)
+        src.hydrometry.graphing.selectors.Selectors().exc(pathstr=pathstr, trait=trait)
 
 
 if __name__ == '__main__':
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     import config
     import src.functions.directories
     import src.hydrometry.graphing.structure
-    import src.hydrometry.graphing.drops
+    import src.hydrometry.graphing.selectors
 
     # Instances
     configurations = config.Config()
