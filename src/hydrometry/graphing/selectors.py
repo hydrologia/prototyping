@@ -6,7 +6,7 @@ import config
 import src.hydrometry.graphing.menu
 
 
-class Drops:
+class Selectors:
 
     def __init__(self):
         """
