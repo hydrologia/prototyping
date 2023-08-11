@@ -67,9 +67,9 @@ if __name__ == '__main__':
     storage = os.path.join(os.getcwd(), 'warehouse', 'hydrometry', 'measures', 'river')
 
     restart = True
-    step = 10
+    step = 1
     today = datetime.date.today()
-    starting = '1960-01-01' if restart else ''
+    starting = '2018-01-01' if restart else ''
     ending = f'{today.year}-01-01' if restart else (today - datetime.timedelta(days=1)).strftime('%Y-%m-%d')
 
     main()
