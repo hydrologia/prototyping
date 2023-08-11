@@ -51,9 +51,13 @@ class Structure:
         # The variables data
         points = []
         for variable in variables:
-            readings = dask.dataframe.read_csv(
-                urlpath=os.path.join(variable, '*.csv'), usecols=['epoch', os.path.basename(variable)])
-            points.append(readings.compute().set_index('epoch', drop=True))
+            try:
+                readings = dask.dataframe.read_csv(
+                    urlpath=os.path.join(variable, '*.csv'), usecols=['epoch', os.path.basename(variable)])
+                frame = readings.compute().set_index('epoch', drop=True)
+            except IOError:
+                frame = pd.DataFrame()
+            points.append(frame)
 
         return pd.concat(points, axis=1, ignore_index=False)
 
