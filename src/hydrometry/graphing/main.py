@@ -1,11 +1,10 @@
+import glob
+import logging
 import os
 import sys
-import logging
-import glob
 
 
 def main():
-
     logger.info('temporary')
 
     # The river in focus
@@ -44,6 +43,9 @@ if __name__ == '__main__':
     root = os.getcwd()
     sys.path.append(root)
     sys.path.append(os.path.join(root, 'src'))
+
+    # Threads
+    os.environ['NUMEXPR_MAX_THREADS'] = '13'
 
     # Logging
     logging.basicConfig(level=logging.INFO, format='\n\n%(message)s\n%(asctime)s.%(msecs)03d',
