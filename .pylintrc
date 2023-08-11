@@ -302,10 +302,10 @@ max-public-methods=20
 max-returns=6
 
 # Maximum number of statements in function / method body.
-max-statements=50
+max-statements=21
 
 # Minimum number of public methods for a class (see R0903).
-min-public-methods=2
+min-public-methods=1
 
 
 [EXCEPTIONS]
@@ -330,10 +330,10 @@ indent-after-paren=4
 indent-string='    '
 
 # Maximum number of characters on a single line.
-max-line-length=100
+max-line-length=127
 
 # Maximum number of lines in a module.
-max-module-lines=1000
+max-module-lines=135
 
 # Allow the body of a class to be on the same line as the declaration if body
 # contains single statement.
