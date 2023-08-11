@@ -1,0 +1,10 @@
+dask
+pytest
+coverage
+pytest-cov
+pylint
+flake8
+jupyterlab
+geopandas
+folium
+requests
