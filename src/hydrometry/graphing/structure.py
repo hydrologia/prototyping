@@ -1,9 +1,8 @@
+import pandas as pd
 import glob
 import os
-
 import dask
 import dask.dataframe
-import pandas as pd
 
 import config
 import src.functions.objects
@@ -16,11 +15,11 @@ class Structure:
         
         :param pathstr: 
         """
-
+        
         self.__pathstr = pathstr
         self.__configurations = config.Config()
         self.__objects = src.functions.objects.Objects()
-
+        
     def __write(self, data: pd.DataFrame, membership: list, trait: str, station: str) -> str:
         """
         
@@ -106,6 +105,7 @@ class Structure:
         # The variables per station
         computations = []
         for station in stations:
+
             # The variables; path string form.
             variables = self.__variables(source=source, station=station)
 
