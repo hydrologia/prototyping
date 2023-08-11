@@ -62,7 +62,7 @@ if __name__ == '__main__':
     Definitions = src.hydrometry.data.datatype.DataType().Definitions
 
     # Arguments
-    sources = 'https://raw.githubusercontent.com/thirdreading/references/master/warehouse/hydrometry/sources.csv'
+    sources = 'https://raw.githubusercontent.com/hydrologia/references/master/warehouse/hydrometry/sources.csv'
     gazetteer = config.Config().gazetteer
     storage = os.path.join(os.getcwd(), 'warehouse', 'hydrometry', 'measures', 'river')
 
