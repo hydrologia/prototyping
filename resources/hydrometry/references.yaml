@@ -1,0 +1,9 @@
+directories:
+  - code: raw
+    parts: ['data', 'hydrometry', 'references']
+  - code: storage
+    parts: ['warehouse', 'hydrometry', 'references']
+nodes:
+  - code: stations
+    url: 'https://environment.data.gov.uk/hydrology/id/stations.json?_limit=10000'
+    basename: "stations.json"

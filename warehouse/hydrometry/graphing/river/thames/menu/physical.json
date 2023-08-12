@@ -1,0 +1,222 @@
+[
+    {
+        "desc": "6b80bd1c-6c19-4c26-875d-108bf8ef1a84",
+        "name": "Farmoor"
+    },
+    {
+        "desc": "6c72f76a-b76c-4a28-8701-71cdca25c0f5",
+        "name": "Windsor"
+    },
+    {
+        "desc": "8496ce69-482c-406a-a2f0-ac418ef8f099",
+        "name": "Kingston"
+    },
+    {
+        "desc": "f44bf96d-3953-4fec-88bd-30ef4e12e523",
+        "name": "Reading"
+    },
+    {
+        "desc": "79515906-3efd-424e-8e32-0db1873cb3a3",
+        "name": "Maidenhead"
+    },
+    {
+        "desc": "b0713e87-cab3-46e4-bfb3-f0bbb91cedf6",
+        "name": "Sutton Courtenay"
+    },
+    {
+        "desc": "c5d27c71-07b5-4a2d-a1eb-cb858c1904d1",
+        "name": "Ewen"
+    },
+    {
+        "desc": "1ad8ff76-625d-4ff1-82bd-9efcc5d41b2f",
+        "name": "Benson Lock"
+    },
+    {
+        "desc": "5086b349-e04b-4f8e-b8f1-fa92b21078d0",
+        "name": "Osney Lock"
+    },
+    {
+        "desc": "920c11ce-bb8d-4f22-a920-b4716bb6ff15",
+        "name": "Sunbury Lock"
+    },
+    {
+        "desc": "085f4c0e-3e4f-49aa-9b45-817965374bd9",
+        "name": "Marsh Lock"
+    },
+    {
+        "desc": "7500ccb3-dc3b-49fb-ac42-241fd7ab908c",
+        "name": "Godstow Lock"
+    },
+    {
+        "desc": "18ba0d8c-6d26-4a5d-82d6-38d5b71baf77",
+        "name": "Chertsey Lock"
+    },
+    {
+        "desc": "cbad329e-0db2-4093-bad6-3d435c95ba61",
+        "name": "Shiplake Lock"
+    },
+    {
+        "desc": "96fd0d8e-05f6-4c98-88ed-3d05ad371c03",
+        "name": "Cleeve Lock"
+    },
+    {
+        "desc": "543513d6-67b0-45f1-819f-50df0f36b84f",
+        "name": "Bray Lock"
+    },
+    {
+        "desc": "f4b9ded7-1961-4632-b8b2-6489d19337f3",
+        "name": "Teddington Lock"
+    },
+    {
+        "desc": "4b932c6f-cafa-47fd-99c1-1600d5a832e5",
+        "name": "Mapledurham Lock"
+    },
+    {
+        "desc": "62a5f097-03e7-4dca-91cc-cb3cf6f1c1c7",
+        "name": "Hannington Bridge"
+    },
+    {
+        "desc": "7cdc3d23-679f-4bee-9015-e709d39eb6db",
+        "name": "St Johns Lock"
+    },
+    {
+        "desc": "604b2518-433e-464c-a0c4-f34dcf85d3ac",
+        "name": "Northmoor Lock"
+    },
+    {
+        "desc": "dc3351c7-544d-4155-baec-c2a280ab4857",
+        "name": "Old Windsor Lock"
+    },
+    {
+        "desc": "e5c8997d-2f18-42c3-8d04-cb15b320ceaf",
+        "name": "Rushey Lock"
+    },
+    {
+        "desc": "bf85754c-4e6e-481b-9f58-a4fe2bf249cd",
+        "name": "Cricklade"
+    },
+    {
+        "desc": "305bad2c-6aa6-417d-a101-698edc850bbd",
+        "name": "Staines"
+    },
+    {
+        "desc": "e796daf4-1e5d-424c-995d-d0f7048c0e34",
+        "name": "Radcot Lock"
+    },
+    {
+        "desc": "ac4a043d-f9f1-4d14-b2f3-1ca710044e70",
+        "name": "Hurley Lock"
+    },
+    {
+        "desc": "defba4e0-fb05-42e7-aec6-f5088f98ae68",
+        "name": "Trowlock Island"
+    },
+    {
+        "desc": "6206bce6-3601-465a-abbf-38535c11073f",
+        "name": "Penton Hook"
+    },
+    {
+        "desc": "95404e71-1291-4fb9-b372-bec75cd3d040",
+        "name": "Sandford-On-Thames"
+    },
+    {
+        "desc": "86d66609-27a3-4641-b97b-f6135446222f",
+        "name": "Goring Lock"
+    },
+    {
+        "desc": "255a860c-247c-4f7d-a38a-01f22c27a149",
+        "name": "Culham Lock"
+    },
+    {
+        "desc": "b94cc43a-f693-4efa-8749-c4718c7eb2b8",
+        "name": "Shifford Lock"
+    },
+    {
+        "desc": "dc2a3244-2dbf-4527-b742-98855d7709f0",
+        "name": "Cookham Lock"
+    },
+    {
+        "desc": "276ac9af-c5c1-4aae-b8b5-57bfe64fb939",
+        "name": "Bell Weir"
+    },
+    {
+        "desc": "e430c8ab-1bee-42d6-92b6-906681c00d76",
+        "name": "Whitchurch Lock"
+    },
+    {
+        "desc": "92e77c59-d975-4700-ac3e-844a9f22a8af",
+        "name": "Caversham Lock"
+    },
+    {
+        "desc": "dbb9c587-c639-4fd9-8d95-1dfe1cc82be9",
+        "name": "Grafton Lock"
+    },
+    {
+        "desc": "15940319-5534-48e5-b9c8-da89dfe2b210",
+        "name": "Pinkhill Lock"
+    },
+    {
+        "desc": "dd230984-b45b-4fd6-8ebf-45ca375799f1",
+        "name": "Eynsham Lock"
+    },
+    {
+        "desc": "cc4ef1cb-09e9-40aa-bd86-ebf4da18caae",
+        "name": "Days Lock"
+    },
+    {
+        "desc": "c6558cab-e0cb-4971-94fa-89df65bec929",
+        "name": "Kings Lock"
+    },
+    {
+        "desc": "b92a2ca3-4eb9-4a8f-b82f-8bbc2a1dfbc9",
+        "name": "Walton"
+    },
+    {
+        "desc": "4e2f942e-663e-4efc-990e-5bf0c24f7b03",
+        "name": "Buscot Lock"
+    },
+    {
+        "desc": "5879def9-9f64-42b9-b063-5f44f4018d06",
+        "name": "Somerford Keynes"
+    },
+    {
+        "desc": "5aa65ecd-6de1-4c18-b2aa-e328a432a968",
+        "name": "Shepperton Lock"
+    },
+    {
+        "desc": "3f160a18-e350-4519-9d06-39d737a80c96",
+        "name": "Abingdon Lock"
+    },
+    {
+        "desc": "f0a3da2c-44e9-4c0b-8f60-c2df9932f9bc",
+        "name": "Boulters Lock"
+    },
+    {
+        "desc": "3fc1df2a-95d5-4750-a9b2-307d729ea3b5",
+        "name": "Romney Lock"
+    },
+    {
+        "desc": "a71ddb8c-ab06-4813-b64d-c22fed08b58c",
+        "name": "Marlow Lock"
+    },
+    {
+        "desc": "ab070726-7ac8-4037-a352-90552398d491",
+        "name": "Iffley Lock"
+    },
+    {
+        "desc": "c81acfa2-3c1b-4d74-bcc9-983afdba23b5",
+        "name": "Clifton Lock"
+    },
+    {
+        "desc": "aaa84d37-79a6-4df7-bad5-08852d9f57b3",
+        "name": "Sonning Lock"
+    },
+    {
+        "desc": "4c154254-e415-4eb4-9194-16a54ef7386d",
+        "name": "Thames Ditton Island"
+    },
+    {
+        "desc": "c55d5617-6a6f-4ddc-9472-d5373d54172e",
+        "name": "Molesey Lock"
+    }
+]
