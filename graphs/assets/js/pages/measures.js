@@ -1,7 +1,7 @@
 var Highcharts;
 var optionSelected;
 var dropdown = $('#option_selector');
-var url = 'https://github.com/hydrologia/experiment/raw/develop/warehouse/hydrometry/graphing/river/thames/menu/physicochemical.json';
+var url = 'https://raw.githubusercontent.com/hydrologia/prototyping/develop/warehouse/hydrometry/graphing/river/thames/menu/physicochemical.json';
 
 // Menu Data
 $.getJSON(url, function (data) {
@@ -37,7 +37,7 @@ dropdown.on('change', function (e) {
 // Generate graphs
 function generateChart(fileNameKey) {
 
-    $.getJSON('https://github.com/hydrologia/experiment/raw/develop/warehouse/hydrometry/graphing/river/thames/data/physicochemical/' + fileNameKey + '.json', function (source) {
+    $.getJSON('https://raw.githubusercontent.com/hydrologia/prototyping/develop/warehouse/hydrometry/graphing/river/thames/data/physicochemical/' + fileNameKey + '.json', function (source) {
 
         // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
         // https://api.highcharts.com/class-reference/Highcharts.Point#.name
