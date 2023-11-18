@@ -13,7 +13,7 @@ def main():
     :return: None
     """
 
-    logger.info('experiment')
+    logger.info('prototyping')
 
 
 if __name__ == '__main__':
